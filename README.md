@@ -17,8 +17,7 @@ The **DGGS-4N specification** adds the regulation of the geocode system associat
 
 ## Please contribute!
 You can post comments, suggestions, describe "bugs", etc.
-* Post your comments on the text of the draft:
-  https://docs.google.com/document/d/10FZ-K0dky_XHLnA4DyBfI_xYq0h45xYCJl2oPa2jjFQ/
+* Post your comments on the text of the draft: https://docs.google.com/document/d/1_HB6ZhGt98bDlon1_uSOSTPVvR5rrErxsKmEaDN5SgE/
 * or contribute on the rationale, https://github.com/AddressForAll/DGGS-4N/wiki
 * or issues https://github.com/AddressForAll/DGGS-4N/issues
 

@@ -1,64 +1,29 @@
 country_code:
+  iso_numeric: 76
   iso_alpha2: BR
   iso_alpha3: BRA
-  iso_numeric: 76
-  dggs4n_country_id: 20
   osm_id: 59470
   wikidata_id: 155
 name: Brasil
 name_en: Brazil
 
-dggs4n_status:
-  official: no
-  offical_forum: no
-  competitors: PlusCodes, OLC, Geohash
-  proposal_status: testing
-
 dggs4n_definition:
+  country_id: 20
   srid: 10857
   grid_x0y0: 2715000 6727000
-  grid_cell_side: 1048576
-  grid_id: 40 41 42 43 30 31 32 33 34 21 22 23 11 12 13 02 44 24
-  face_id: a  b  e  f  8  9  c  d  2  3  6  7  1  4  5  0T 0P 0N
-  territorial_sea_in_l0_coverage: yes
+  grid_zone_side: 1048576
+  grid_id:   40 41 42 43 30 31 32 33 34 21 22 23 11 12 13 02 44 24
+  cover_cod: a  b  e  f  8  9  c  d  2  3  6  7  1  4  5  0T 0P 0N
+  territ_sea_in_l0_coverage: yes
   eez_in_l0_coverage: no
-  sci_base: 16h
-  sci_sep: +
-  sci_size_min: 1
-  sci_size_max: 11
-  postalcode_base: 32nvu
-  postalcode_sep: ~
-  raster_delta: 28024.0 42328.0
+  unit_zone_level: 40
+  geocode:
+    scientific_base: 16h
+    scientific_sep: +
+    postal_base: 32nvu
+    postal_sep:  ~
+  raster_delta: 28024 42328
 
-local_srid_def:
-  id: 10857
-  title: "IBGE Albers, official urn:ogc:def:crs:EPSG::10857"
-  auth_name: EPSG
-  auth_srid: 10857
-  proj4text: "+proj=aea +lat_0=-12 +lon_0=-54 +lat_1=-2 +lat_2=-22 +x_0=5000000 +y_0=10000000 +ellps=WGS84 +units=m +no_defs"
-  srtext_PROJCS:
-    label: Conica_Equivalente_de_Albers_Brasil
-    GEOGCS:
-      label: GCS_SIRGAS2000
-      DATUM:
-        label: D_SIRGAS2000
-        SPHEROID:
-        - Geodetic_Reference_System_of_1980
-        - 6378137
-        - 298.2572221009113
-      PRIMEM:
-      - Greenwich
-      - 0
-      UNIT:
-      - Degree
-      - 0.017453292519943295
-    PROJECTION: Albers
-    PARAMETERS:
-      standard_parallel_1: -2
-      standard_parallel_2: -22
-      latitude_of_origin: -12
-      central_meridian: -54
-      false_easting: 5000000
-      false_northing: 10000000
-    UNIT:
-      Meter: 1
+dggs4n_status:
+  official: proposal
+  proposal_status: testing

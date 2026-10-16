@@ -9,7 +9,7 @@ Although the grid domain is restricted to a national extent, **DGGS-4N ensures i
 
 On the technical side, DGGS-4N allows the use of the equal-area projections already officially adopted by each country, and of conventional GIS and geoprocessing platforms, including raster-based ones. In this sense, **DGGS-4N acts as a cultural enabler for DGGS**, paving the way for the future adoption of global grids.
 
-<img width="722" height="700" alt="image" src="https://github.com/user-attachments/assets/ea74c211-31d8-4947-80a4-26b69ed13064" />
+![](./assets/DGGS-compare4N.png)
 
 In the DGGS conceptual diagram shown above, only the entities highlighted in yellow were adapted to establish the **National Domain**. The key change is the replacement of the *global geometry* by a *national geometry*, formed by the level-0 cells covering the nation's jurisdictional boundaries in a projection chosen by the country itself. Replacing the globe with the nation breaks one of the theoretical and methodological foundations of DGGS. Remarkably, however, it leaves all the other conventions untouched (those not highlighted in yellow in the diagram), which fosters the development of a "DGGS culture" in situations where adopting a DGGS is not feasible.
 
@@ -17,9 +17,9 @@ The **DGGS-4N specification** adds the regulation of the geocode system associat
 
 ## Please contribute!
 You can post comments, suggestions, describe "bugs", etc.
-* Post your comments on the text of the draft: https://docs.google.com/document/d/1_HB6ZhGt98bDlon1_uSOSTPVvR5rrErxsKmEaDN5SgE/
-* or contribute on the rationale, https://github.com/AddressForAll/DGGS-4N/wiki
-* or issues https://github.com/AddressForAll/DGGS-4N/issues
+* Post your comments on the text of the draft: [link here](https://docs.google.com/document/d/1_HB6ZhGt98bDlon1_uSOSTPVvR5rrErxsKmEaDN5SgE/)
+* or contribute on the rationale, https://git.AddressForAll.org/DGGS-4N/wiki
+* or issues https://git.AddressForAll.org/DGGS-4N/issues
 
 ## Current specification metadata 
 * `title`: DGGS for Nations (DGGS‑4N)
